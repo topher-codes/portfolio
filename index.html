@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="description" content="Chris' portfolio for FCC" />
+
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Portfolio</title>
+		<link
+			rel="shortcut icon"
+			href="https://blog.drednaut.net/favicon.ico"
+			type="image/x-icon"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+      <!-- Navbar starts here! -->
+			<nav class="navbar" id="navbar">
+				<div class="nav-links">
+					<a href="#projects"><h2>Projects</h2></a>
+					<a
+						href="https://www.freecodecamp.org/Halcyondaze"
+						target="_blank"
+						rel="noopenner noreferrer"
+						id="profile-link"
+						><h2>Profile</h2></a
+					>
+				</div>
+			</nav>
+      <!-- Welcome Section starts here! -->
+			<section class="welcome-section" id="welcome-section">
+				<h1>Welcome to my portfolio. I hope you like it.</h1>
+				<video
+					class="background-video"
+					muted
+					autoplay
+					loop
+					src="bg-video.mp4"
+				></video>
+
+				<button class="btn">
+					<i class="fa fa-pause" aria-hidden="true"></i>
+				</button>
+			</section>
+		</header>
+    <!-- Projects Section starts here! -->
+		<main>
+			<section class="projects" id="projects">
+				<div class="project-tile">
+					<h1>My Projects</h1>
+					<a
+						href="https://drednaut.net"
+						target="_blank"
+						rel="noopener noreferrer"
+						><img srcset="project.webp 400w,
+                          project-900w.webp 900w"
+                  sizes="(max-width: 768px) 400px,
+                          900px"
+                  src="project.webp" 
+                  alt="My personal website" 
+					/></a>
+				</div>
+			</section>
+		</main>
+		<script src="app.js"></script>
+	</body>
+</html>
